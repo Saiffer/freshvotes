@@ -6,6 +6,10 @@ import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
 @Embeddable
 public class CommentId implements Serializable  {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9142589843542156744L;
 	private User user;
 	private Feature feature;
 	
